@@ -30,7 +30,7 @@ def test_is_palindrome():
 def get_perfect_squares(start,end):
   exista = False
   for i in range (start, end + 1):
-    for j in range (start):
+    for j in range (i):
       if j * j == i:
         print (i," ")
         exista = True
